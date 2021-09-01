@@ -1,0 +1,53 @@
+/*Inicio*/
+
+{ transition: all 0.8;
+}
+h1{
+font-size: 4em;
+color: black;
+font-family: arial;
+font-style: bolder;
+text-align: center;
+}
+p{
+font-size: 1.7em;
+margin: 40px;
+color: #2c363a;
+font-family: arial;
+text-align: center;
+}
+body{
+background-image: url(https://mail.riseup.net/rc/skins/ink/images/icon.svg?s=1624905962);
+background: #eee; 
+background-position: center;
+background-size: auto;
+text-align: center;
+margin: 30px;
+font-size: 1em;
+font-family: arial;
+}
+.button button{ 
+background: #2ac2ff;
+display: right;
+margin-top: 7px;
+text-align: center;
+cursor: pointer;
+padding: 15px 15px;
+font-family: arial;
+font-size: 2em;
+color: black;
+border-radius: 12px;
+box-shadow:  0 8px 16px 0 lightgrey;
+}
+
+/*Cifrar*/
+
+body{
+background: #eee; 
+background-position: center;
+background-size: auto;
+text-align: center;
+margin: 30px;
+font-size: 1em;
+font-family: arial;
+}
