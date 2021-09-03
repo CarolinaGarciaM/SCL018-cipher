@@ -1,7 +1,8 @@
-/*Inicio*/
-
-{ transition: all 0.8;
+textarea {
+    resize: none;
 }
+
+/*Inicio*/
 h1{
 font-size: 4em;
 color: black;
@@ -17,7 +18,6 @@ font-family: arial;
 text-align: center;
 }
 body{
-background-image: url(https://mail.riseup.net/rc/skins/ink/images/icon.svg?s=1624905962);
 background: #eee; 
 background-position: center;
 background-size: auto;
