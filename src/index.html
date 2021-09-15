@@ -3,21 +3,22 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Cifrado Riseup</title>
+    <title>CIFRADO RISEUP</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="https://mail.riseup.net/rc/images/favicon.ico?s=1609343043">
 </head>
 
 <body>
 
-    <!--INICIO -->
-
-    <section>
-        <div>
+    <header>
+        <section>
             <!--LOGO-->
-            <img id="logo" src="https://mail.riseup.net/rc/skins/ink/images/icon.svg?s=1624905962" alt="Logo">
+            <!--Se utiliza el alt para descripción-->
+            <img id="logo" src="https://mail.riseup.net/rc/skins/ink/images/icon.svg?s=1624905962" 
+            alt="Logo de circulo de color azul claro, dentro de este, la silueta negra de un cuervo
+            observando a la derecha">
             <!--Introducción-->
-            <h1>Cifrado Riseup</h1>
+            <h1>CIFRADO RISEUP</h1>
             <p>Riseup proporciona herramientas de comunicación online para gente y grupos que trabajan en un
                 cambio social libertario. Somos un proyecto para crear alternativas democráticas y ejercer la
                 autogestión mediante el
@@ -26,66 +27,46 @@
             <p><strong>Aquí podrás cifrar y descifrar tu mensaje de manera segura para luego enviarlo desde tu
                     email:
                 </strong></p>
-            <!--Botón Cifrar-->
-            <div class="button">
-                <button><strong>CIFRAR</strong></button>
-            </div>
-            <!--Botón Descifrar-->
-            <div class="button">
-                <button><strong>DESCIFRAR</strong></button>
-            </div>
-        </div>
-    </section>
-
-
-    <!--CIFRAR -->
-
-    <section>
-        <form name="quiz">
-            <div>
-                <h1>CIFRAR</h1>
-                <p>Ingresa tu código de seguridad:</p>
-                <p>Número del 1 al 50</p>
-                <input type="number" name="mensaje1">
-                <Button name="Enter">Enter</Button>
-            </div>
-            <div>
-                <p>Escribe tu mensaje a cifrar:</p>
-                <textarea name="mensaje1" rows="10" cols="50"></textarea><br>
-                <Button name="Cifrar">Cifrar</Button>
-            </div>
-            <div>
-            <p>Mensaje cifrado:</p>
-            <textarea name="mensaje2" rows="10" cols="50"></textarea><br>
-            </div>
-        </form>
-    </section>
-
-    <!--DESCIFRAR -->
-
-    <section>
-        <form name="quiz2">
-            <div>
-                <h1>DESCIFRAR</h1>
-                <p>Ingresa tu código de seguridad:</p>
-                <p>Número del 1 al 50</p>
-                <input type="number" name="mensajes11">
-                <Button name="Enter">Enter</Button>
-            </div>
-            <div>
-                <p>Escribe tu mensaje a descifrar:</p>
-                <textarea name="mensaje22" rows="10" cols="50"></textarea><br>
-                <Button name="Descifrar">Descifrar</Button>
-            </div>
-            <div>
-                <p>Mensaje descifrado:</p>
-                <textarea name="mensaje33" rows="10" cols="50"></textarea><br>
-                </div>
-            </form>
         </section>
-    <script src="index.js" type="module"></script>
-    <script src="cipher.js" type="module"></script>
+    </header>
 
+    <article>
+        <!--Cuadro para ingresar mensaje-->
+        <div>
+            <!--<p>Ingresa tu mensaje:</p>-->
+            <textarea id="mensajeIngresado" rows="18" cols="45" placeholder="Ingresa tu mensaje a cifrar/descifrar:"></textarea>
+        </div>
+        <!--Código-->
+        <div>
+            <!--<p>Ingresa tu código:</p>-->
+            <input type="number" id="offset" placeholder="Elige un número:">
+        </div>
+        <!--Botón cifrar-->
+        <div>
+            <button type="button" id="botonCifrar">CIFRAR</button>
+        </div>
+        <!--Botón descifrar-->
+        <div>
+            <button type="button" id="botonDescifrar">DESCIFRAR</button>
+        </div>
+        <!--Cuadro para recibir mensaje-->
+        <div>
+            <!--<p>Tu mensaje:</p>-->
+            <textarea id="mensajeEntregado" rows="18" cols="45" placeholder="Tu mensaje cifrado/descifrado:"></textarea>
+        </div>
+        </div>
+    </article>
+    <!--Revisar este section-->
+    </section>
+
+    <footer>
+
+        <div id="textoFooter">
+            Envíanos tu mensaje cifrado a <strong>mail.riseup.net</strong>
+        </div>
+    </footer>
+
+    <script src="index.js" type="module"></script>
 </body>
 
 </html>
