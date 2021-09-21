@@ -20,14 +20,14 @@ header{
     position: relative;
 }
 
-section{
+header, main{
     max-width: 1000px;
     margin: auto;
     padding: 0%;
     border-width: 0px;
 }
 
-section h1{
+header h1{
     font-size: 40px;
     font-style: arial;
     font-weight: bolder;
@@ -36,7 +36,7 @@ section h1{
     
 }
 
-section p{
+header p{
     font-size: 20px;
     margin: 15px;
     color: #2c363a;
@@ -44,7 +44,7 @@ section p{
     text-align: center;
 }
 
-article{
+main{
     display: flex;
     justify-content: center;  
 }

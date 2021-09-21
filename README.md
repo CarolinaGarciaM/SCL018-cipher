@@ -36,7 +36,7 @@ para activistas relacionades a las luchas sociales y políticas. Es una página 
 que al ser para activistas es necesario que cargue más rápido y sea de una vista por el poco tiempo que podrían tener 
 les usuaries para cifrar y descifrar su mensaje, más en tiempos de conflicto y persecución política.
 
-QUIÉNES SON LES USUARIES Y SU RELACIÓN CON EL PRODCTO:
+QUIÉNES SON LES USUARIES Y SU RELACIÓN CON EL PRODUCTO:
 
 Como mencionábamos anteriormente en decisiones del diseño, la página Cifrado Riseup está insppirada en https://riseup.net/,
 una página creada por activistas relacionades a las luchas sociales y políticas, es por esto, que nuestro proyecto está 

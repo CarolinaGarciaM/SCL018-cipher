@@ -11,7 +11,6 @@
 <body>
 
     <header>
-        <section>
             <!--LOGO-->
             <!--Se utiliza el alt para descripción-->
             <img id="logo" src="https://mail.riseup.net/rc/skins/ink/images/icon.svg?s=1624905962" 
@@ -27,10 +26,9 @@
             <p><strong>Aquí podrás cifrar y descifrar tu mensaje de manera segura para luego enviarlo desde tu
                     email:
                 </strong></p>
-        </section>
     </header>
 
-    <article>
+    <main>
         <!--Cuadro para ingresar mensaje-->
         <div>
             <!--<p>Ingresa tu mensaje:</p>-->
@@ -39,7 +37,7 @@
         <!--Código-->
         <div>
             <!--<p>Ingresa tu código:</p>-->
-            <input type="number" id="offset" placeholder="Elige un número:">
+            <input type="number" id="offset" min="1" max="33" placeholder="Elige un número:">
         </div>
         <!--Botón cifrar-->
         <div>
@@ -54,13 +52,9 @@
             <!--<p>Tu mensaje:</p>-->
             <textarea id="mensajeEntregado" rows="18" cols="45" placeholder="Tu mensaje cifrado/descifrado:"></textarea>
         </div>
-        </div>
-    </article>
-    <!--Revisar este section-->
-    </section>
+    </main>
 
     <footer>
-
         <div id="textoFooter">
             Envíanos tu mensaje cifrado a <strong>mail.riseup.net</strong>
         </div>
