@@ -28,7 +28,7 @@ const cipher = {
         );
       }
 
-      // Mnsaje cifrado será igual al texto en la posición [i].
+      // Mensaje cifrado será igual al texto en la posición [i].
       else {
         mensajeCifrado += texto[i];
       }
