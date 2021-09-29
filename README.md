@@ -49,10 +49,13 @@ Cifrado Riseup es un espacio realizado por personas afines a les usuaries, pensa
 CÓMO EL PRODUCTO SOLUCIONA LOS PROBLEMAS/NECESIDADES DE LES USUARIES:
 
 El producto final cumple con cifrar y descifrar los mensajes de les usuaries que estén relaciones a las luchas sociales y políticas,
-se encuentren en zonas de conflictos y persecución política, por ej. Activistas medioambientales, relaciones al antiextractivismo, 
+se encuentren en zonas de conflictos y persecución política, por ej. Activistas medioambientales, relacionades al antiextractivismo, 
 antirracistas, LGBTIQ+, entre otras, que necesiten cifrar y/o descifrar un mensaje para comunicarse entre elles, enviar mensajes 
 informativos a organizaciones varias.
 
 Como argumentábamos, les usuaries que utilizarían Cifrado Riseup, estarían ligades a zonas de conflictos y persecución política, 
 esto incluye encarcelamiento, violencia, represión e incluso asesinatos. Es por esto, que no sólo solucionaría necesidades como
 cifrar y descifrar un mensaje, también sería de gran ayuda para resguardar sus propias sobrevivencias.
+
+Nota: Sabemos que ninguna página es 100% segura, Cifrado Riseup no es la excepción. Esta página es una prueba a lo que podríamos mejorar 
+en pro a generar espacios mucho más seguros entre activistas de diferentes luchas que necesiten otros medios para comunicarse.
