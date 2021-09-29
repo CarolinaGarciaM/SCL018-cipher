@@ -50,7 +50,7 @@ CÓMO EL PRODUCTO SOLUCIONA LOS PROBLEMAS/NECESIDADES DE LES USUARIES:
 
 El producto final cumple con cifrar y descifrar los mensajes de les usuaries que estén relaciones a las luchas sociales y políticas,
 se encuentren en zonas de conflictos y persecución política, por ej. Activistas medioambientales, relaciones al antiextractivismo, 
-antirracistas,LGBTIQ+, entre otras, que necesiten cifrar y/o descifrar un mensaje para comunicarse entre elles, enviar mensajes 
+antirracistas, LGBTIQ+, entre otras, que necesiten cifrar y/o descifrar un mensaje para comunicarse entre elles, enviar mensajes 
 informativos a organizaciones varias.
 
 Como argumentábamos, les usuaries que utilizarían Cifrado Riseup, estarían ligades a zonas de conflictos y persecución política, 
